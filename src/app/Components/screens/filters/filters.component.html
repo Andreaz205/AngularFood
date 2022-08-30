@@ -1,0 +1,38 @@
+<div class="filters">
+  <button
+    (click)="handleFilter('burger')"
+    [ngClass]="{active: type === 'burger'}"
+  >
+    <img src="https://icon-library.com/images/hamburger-icon-png/hamburger-icon-png-0.jpg"
+         alt=""
+    >
+  </button>
+
+  <button
+    (click)="handleFilter('taco')"
+    [ngClass]="{active: type === 'taco'}"
+  >
+    <img src="https://cdn-icons-png.flaticon.com/512/180/180610.png"
+         alt="taco"
+    >
+  </button>
+
+  <button
+    (click)="handleFilter('chicken')"
+    [ngClass]="{active: type === 'chicken'}"
+  >
+    <img src="https://i.pinimg.com/originals/d6/f6/fe/d6f6febe5dec8c3b9564d7c514f5c8d0.png"
+         alt="chicken"
+    >
+  </button>
+
+  <button
+    (click)="handleFilter('drink')"
+    [ngClass]="{active: type === 'drink'}"
+  >
+    <img src="http://cdn.onlinewebfonts.com/svg/img_485192.png"
+         alt="drink"
+         width="40"
+    >
+  </button>
+</div>
